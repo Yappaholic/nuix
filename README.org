@@ -1,0 +1,18 @@
+#+title: Readme
+#+description: All in one CLI for Nix/NixOS users
+
+This is my attempt to unify the nix/NixOS command line programs in spirit of Guix cli. It is WIP and highly experimental, so definitely don't use it for production.
+
+** Current roadmap ([0%] done :3)
+- [ ] Map every command to its respected command in nix [0%]
+  - [ ] System
+  - [ ] Home-manager
+  - [ ] Garbage collector
+  - [ ] Search
+  - [ ] Package management
+  - [ ] Channel management
+  - [ ] Shell
+  - [ ] Prefetch/Download
+- [ ] Add checks for NixOS users
+- [ ] Add ~--man~ and ~--help~ options for each command
+- [ ] Add ~nh~ integration
