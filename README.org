@@ -1,4 +1,4 @@
-#+title: Readme
+#+title: All in one CLI for Nix/NixOS users
 #+description: All in one CLI for Nix/NixOS users
 
 This is my attempt to unify the nix/NixOS command line programs in spirit of Guix cli. It is WIP and highly experimental, so definitely don't use it for production.
