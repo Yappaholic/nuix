@@ -1,4 +1,5 @@
 mod home;
+mod shell;
 mod system;
 use clap::{Parser, Subcommand};
 
@@ -12,6 +13,7 @@ struct Cli {
 enum Domain {
     System(system::commands::SystemCmd),
     Home(home::commands::HomeCmd),
+    Shell(shell::commands::Commands),
 }
 
 fn main() {
@@ -26,6 +28,9 @@ fn matcher(cli: Cli) {
         }
         Some(Domain::Home(name)) => {
             home::matcher::run(name);
+        }
+        Some(Domain::Shell(name)) => {
+            shell::matcher::run(name);
         }
         None => {}
     }
